@@ -1,0 +1,323 @@
+@charset "UTF-8";
+.styledLinkContent.flex.justify-center.nowrap > svg {
+    margin: 0px 5px 0px 3px;
+}
+
+#downshift-3-input {
+}
+
+#login-header-my-orders {
+}
+
+#login-header-my-addresses {
+}
+
+#login-header-my-profile {
+}
+
+#tcbbb709a-7419-4373-9227-76a945db2a5e {
+}
+
+#orders {
+}
+
+#lists {
+}
+
+#lojaCarrefour {
+}
+
+#simple {
+}
+
+#simple-check1 {
+}
+
+#simple-check2 {
+}
+
+#simple-check3 {
+}
+
+#simple-check4 {
+}
+
+#simple-check5 {
+}
+
+#simple-check6 {
+}
+
+#root {
+}
+
+.vtex-store-header-2-x-headerRowContainer.vtex-store-header-2-x-headerRowContainer--mainHeader-2.w-100.flex.items-center {
+}
+
+.vtex-store-components-3-x-logoLink {
+}
+
+.store-logo.vtex-store-components-3-x-logoContainer.vtex-store-components-3-x-sizeDesktop.pv4.ph6 {
+}
+
+.lazyload.vtex-store-components-3-x-logoImage.vtex-render-runtime-8-x-lazyload {
+}
+
+.w-100.mw7.pv4.vtex-store-components-3-x-searchBarContainer {
+}
+
+.relative-m.w-100.vtex-store-components-3-x-searchBarInnerContainer {
+}
+
+.vtex-store-components-3-x-autoCompleteOuterContainer {
+}
+
+.w-100.flex {
+}
+
+.vtex-input.w-100 {
+}
+
+.vtex-input-prefix__group.flex.flex-row.items-stretch.overflow-hidden.br2.bw1.b--solid.b--muted-4.hover-b--muted-3.h-large {
+}
+
+.c-muted-2.fw5.flex.items-center.t-body.bg-base.vtex-input__suffix.br2.bl-0.br--right.pr5.pl4 {
+}
+
+.vtex-store-components-3-x-suffixWrapper.flex.h-100 {
+}
+
+.vtex-store-components-3-x-searchBarIcon.vtex-store-components-3-x-searchBarIcon--search.flex.items-center.pointer.bn.bg-transparent.outline-0.pv0.pl0.pr3 {
+}
+
+.vtex-store-components-3-x-searchIcon {
+}
+
+.vtex-menu-2-x-menuContainerNav.vtex-menu-2-x-menuContainerNav--user-header-menu {
+}
+
+.vtex-menu-2-x-menuContainer.vtex-menu-2-x-menuContainer--user-header-menu.list.flex.pl0.mv0.flex-row {
+}
+
+.carrefourbr-carrefour-components-0-x-headerLoginContainer.carrefourbr-carrefour-components-0-x-headerLoginContainer--loggedOut {
+}
+
+.carrefourbr-carrefour-components-0-x-notLoggedContainer.hide-child.relative.flex.tl.items-center.justify-start.t-body.c-on-base {
+}
+
+.carrefourbr-carrefour-components-0-x-loginLink.link.flex.items-center {
+}
+
+.carrefourbr-carrefour-components-0-x-profileIcon {
+}
+
+.carrefourbr-carrefour-components-0-x-labelBox {
+}
+
+.carrefourbr-carrefour-components-0-x-labelBoxGreeting.db.fw6.f7.b {
+}
+
+.carrefourbr-carrefour-components-0-x-labelBoxLogin.db.f7 {
+}
+
+.carrefourbr-carrefour-components-0-x-loginSpan.link {
+}
+
+.carrefourbr-carrefour-components-0-x-floatingContainer.z-999.absolute-l.child {
+}
+
+.carrefourbr-carrefour-components-0-x-floatingContent {
+}
+
+.carrefourbr-carrefour-components-0-x-signInBoxDesktop {
+}
+
+.vtex-menu-2-x-styledLink.vtex-menu-2-x-styledLink--login-header-signin.no-underline.pointer.t-small.c-on-base.pointer {
+}
+
+.vtex-menu-2-x-styledLinkContent.vtex-menu-2-x-styledLinkContent--login-header-my-orders.flex.justify-between.nowrap {
+}
+
+.vtex-menu-2-x-menuContainerNav.vtex-menu-2-x-menuContainerNav--login-header-logged {
+}
+
+.vtex-menu-2-x-menuContainer.vtex-menu-2-x-menuContainer--login-header-logged.list.flex.pl0.mv0.flex-row {
+}
+
+.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--login-header-my-orders.list.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--login-header-my-orders.vtex-menu-2-x-menuItem--isClosed.vtex-menu-2-x-menuItem--login-header-my-orders--isClosed {
+}
+
+.vtex-menu-2-x-styledLinkContainer.vtex-menu-2-x-styledLinkContainer--login-header-my-orders.mh6 {
+}
+
+.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--login-header-my-addresses.list.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--login-header-my-addresses.vtex-menu-2-x-menuItem--isClosed.vtex-menu-2-x-menuItem--login-header-my-addresses--isClosed {
+}
+
+.vtex-menu-2-x-styledLinkContainer.vtex-menu-2-x-styledLinkContainer--login-header-my-addresses.mh6 {
+}
+
+.vtex-menu-2-x-styledLinkContent.vtex-menu-2-x-styledLinkContent--login-header-my-addresses.flex.justify-between.nowrap {
+}
+
+.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--login-header-my-profile.list.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--login-header-my-profile.vtex-menu-2-x-menuItem--isClosed.vtex-menu-2-x-menuItem--login-header-my-profile--isClosed {
+}
+
+.vtex-menu-2-x-styledLinkContainer.vtex-menu-2-x-styledLinkContainer--login-header-my-profile.mh6 {
+}
+
+.vtex-menu-2-x-styledLinkContent.vtex-menu-2-x-styledLinkContent--login-header-my-profile.flex.justify-between.nowrap {
+}
+
+.carrefourbr-carrefour-components-0-x-MenuItemLoyalty.ml2.list {
+}
+
+.carrefourbr-carrefour-components-0-x-StyledLinkContainerLoyalty.styledLinkContainer {
+}
+
+.styledLink.no-underline.pointer.t-body.c-on-base.pointer {
+}
+
+.styledLinkContent.flex.justify-center.nowrap {
+}
+
+.carrefourbr-carrefour-components-0-x-StyledLinkIconLoyalty.styledLinkIcon {
+}
+
+.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--orders.list.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--orders.vtex-menu-2-x-menuItem--isClosed.vtex-menu-2-x-menuItem--orders--isClosed {
+}
+
+.vtex-menu-2-x-styledLinkContainer.vtex-menu-2-x-styledLinkContainer--orders.mh6.pv5 {
+}
+
+.vtex-menu-2-x-styledLinkContent.vtex-menu-2-x-styledLinkContent--orders.flex.justify-between.nowrap {
+}
+
+.vtex-menu-2-x-styledLinkIcon.vtex-menu-2-x-styledLinkIcon--orders.mh2 {
+}
+
+.orders-icon {
+}
+
+.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--lists.list.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--lists.vtex-menu-2-x-menuItem--isClosed.vtex-menu-2-x-menuItem--lists--isClosed {
+}
+
+.vtex-menu-2-x-styledLinkContainer.vtex-menu-2-x-styledLinkContainer--lists.mh6.pv5 {
+}
+
+.vtex-menu-2-x-styledLinkContent.vtex-menu-2-x-styledLinkContent--lists.flex.justify-between.nowrap {
+}
+
+.vtex-menu-2-x-styledLinkIcon.vtex-menu-2-x-styledLinkIcon--lists.mh2 {
+}
+
+.wishlist-icon {
+}
+
+.vtex-minicart-2-x-minicartWrapperContainer.relative.fr.flex.items-center {
+}
+
+.vtex-minicart-2-x-minicartContainer.flex.flex-column {
+}
+
+.vtex-button.bw1.ba.fw5.v-mid.relative.pa0.lh-solid.br2.min-h-regular.t-action.icon-button.dib.bg-transparent.b--transparent.c-action-primary.hover-b--transparent.hover-bg-action-secondary.hover-b--action-secondary.pointer {
+    font-size: 0px;
+}
+
+.vtex-button__label.flex.items-center.justify-center.h-100.ph4 {
+    padding-top: 0.25em;
+    padding-bottom: 0.32em;
+}
+
+.vtex-minicart-2-x-minicartIconContainer.gray.relative {
+}
+
+.vtex-minicart-2-x-cartIcon {
+}
+
+.vtex-minicart-2-x-minicartQuantityBadge.vtex-minicart-2-x-minicartQuantityBadgeDefault.c-on-emphasis.absolute.t-mini.bg-emphasis.br4.w1.h1.pa1.flex.justify-center.items-center.lh-solid {
+    user-select: none;
+}
+
+.carrefourbr-carrefour-components-0-x-topbar.filter.flex.justify-center {
+}
+
+.carrefourbr-carrefour-components-0-x-headerText {
+}
+
+.white.t-heading-4 {
+}
+
+.carrefourbr-carrefour-components-0-x-locationSelect.false {
+}
+
+.white.tc.mt0 {
+}
+
+.vtex-styleguide-9-x-dropdown.vtex-dropdown {
+}
+
+.h-100 {
+}
+
+.vtex-styleguide-9-x-container.vtex-dropdown__container.br2.relative.bw1.bg-base.ba.h-small.hover-b--muted-3.b--muted-4 {
+}
+
+.flex.h-100 {
+}
+
+.vtex-dropdown__caption.flex-auto.tl.truncate.h-100 {
+}
+
+.h-100.flex.items-center {
+}
+
+.vtex-dropdown__arrow.flex-none.flex.items-center.pl2.c-action-primary {
+}
+
+.o-0.absolute.top-0.left-0.h-100.w-100.bottom-0.t-body.pointer {
+    -webkit-appearance: menulist-button
+}
+
+.carrefourbr-carrefour-components-0-x-selectFilter.false {
+}
+
+.carrefourbr-carrefour-components-0-x-locatorStoreType.false {
+}
+
+.vtex-checkbox__line-container.flex.items-start.relative.pointer {
+}
+
+.vtex-checkbox__container.relative.w1.h1.mr3 {
+}
+
+.vtex-checkbox__inner-container.h1.w1.absolute.ba.bw1.br1.b--muted-4.pointer.mr3 {
+    transition: background 20ms, border 100ms;
+    background-color: #dbe9fd;
+    border-color: #dbe9fd
+}
+
+.vtex-checkbox__box-wrapper.absolute.w1.h1.flex.o-100 {
+    left: 0
+}
+
+.vtex-checkbox__box.absolute.top-0.left-0.bottom-0.overflow-hidden.w-100.flex.items-center.align-center.justify-center.c-on-action-primary {
+    transition: right 110ms ease-in-out 30ms
+}
+
+.vtex__icon-check {
+}
+
+.vtex-checkbox__label.w-100.c-on-base.pointer {
+}
+
+.mv5 {
+}
+
+.mv6 {
+}
+
+.vtex-checkbox__inner-container.h1.w1.absolute.ba.bw1.br1.b--action-primary.bg-action-primary.mr3 {
+    transition: background 20ms, border 100ms;
+    background-color:;
+    border-color:
+}
