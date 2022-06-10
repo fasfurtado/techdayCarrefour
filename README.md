@@ -117,9 +117,9 @@ Procurou-se utilizar elementos da biblioteca Bootstrap para garantir a responsiv
    5.1. Digital Innovation One (DIO) – Bootcamp Carrefour – [www.dio.me](http://www.dio.me)</br> 
    5.2. <https://reactjs.org/docs/thinking-in-react.html></br>
    5.3. <https://react.semantic-ui.com/collections/form/#types-form></br>
-   5.4. <https://react.semantic-ui.com/layouts/responsive>
-   5.5. <https://www.carrefour.com.br/localizador-de-lojas>
-   5.6. <https://herramientas-online.com/comprimir-descomprimir-css.html>
-   5.7. <https://www.freecodecamp.org/news/how-to-build-a-todo-application-using-reactjs-and-firebase/>
-   5.8. <https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS>
+   5.4. <https://react.semantic-ui.com/layouts/responsive></br>
+   5.5. <https://www.carrefour.com.br/localizador-de-lojas></br>
+   5.6. <https://herramientas-online.com/comprimir-descomprimir-css.html></br>
+   5.7. <https://www.freecodecamp.org/news/how-to-build-a-todo-application-using-reactjs-and-firebase/></br>
+   5.8. <https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS></br>
    5.9.<https://mybrowseraddon.com/access-control-allow-origin.html>
