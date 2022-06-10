@@ -79,11 +79,7 @@ O mecanismo CORS suporta requisições seguras do tipo cross-origin e transferê
 3.9. Feito isso, passou-se a implementação dos códigos e testes, que apresentaram grandes dificuldades, principalmente, pela necessidade da quebra de paradigma entre a programação em programação .net, e os conceitos necessários para a programação em Reactjs, mas que foram superadas, em parte, após a revisão das aulas da DIO entre outras fontes de conhecimento.
 
 
-<<<<<<< HEAD
 4. RESULTADOS ALCANÇADOS
-=======
-
-Fonte: mozilla.org
 
 O mecanismo CORS suporta requisições seguras do tipo cross-origin e transferências de dados entre navegadores e servidores web.
 
@@ -103,7 +99,6 @@ Automaticamente, a aplicação já apresenta a grade de produtos da 1ª. loja da
 
 Procurou-se utilizar elementos da biblioteca Bootstrap para garantir a responsividade da aplicação que pode rodar em diferentes dispositivos com telas de variados tamanhos.
 
-<<<<<<< HEAD
 5.  REFERÊNCIAS TÉCNICAS
 
 5.1. Digital Innovation One (DIO) – Bootcamp Carrefour – [www.dio.me](http://www.dio.me)	 
@@ -115,17 +110,3 @@ Procurou-se utilizar elementos da biblioteca Bootstrap para garantir a responsiv
 5.7. <https://www.freecodecamp.org/news/how-to-build-a-todo-application-using-reactjs-and-firebase/>
 5.8. <https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS>
 5.9. <https://mybrowseraddon.com/access-control-allow-origin.html>
-=======
-
-1. REFERÊNCIAS TÉCNICAS
-
-1. Digital Innovation One (DIO) – Bootcamp Carrefour – [www.dio.me](http://www.dio.me)	 
-1. <https://reactjs.org/docs/thinking-in-react.html>
-1. <https://react.semantic-ui.com/collections/form/#types-form>
-1. <https://react.semantic-ui.com/layouts/responsive>
-1. <https://www.carrefour.com.br/localizador-de-lojas>
-1. <https://herramientas-online.com/comprimir-descomprimir-css.html>
-1. <https://www.freecodecamp.org/news/how-to-build-a-todo-application-using-reactjs-and-firebase/>
-1. <https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS>
-1. <https://mybrowseraddon.com/access-control-allow-origin.html>
->>>>>>> 2ce0b1a27526585b8b0fded62afe3ee821de1412
