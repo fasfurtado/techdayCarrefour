@@ -1,75 +1,121 @@
-<<<<<<< HEAD
-# techdayCarrefour
-Desafio Tech Day Carrefour
-=======
-# Getting Started with Create React App
+﻿**Projeto de Implementação de Desafio Tech Day Carrefour**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+`       `Autor: Francisco de Assis da Silva Furtado
 
-## Available Scripts
+`       `e-mail: <franciscofurtadoeng@hotmail.com>
 
-In the project directory, you can run:
+`      `Repositório github: 	<https://github.com/fasfurtado/techdaycarrefour>	
 
-### `npm start`
+1. DEFINIÇÃO DO PROBLEMA
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.1. O Carrefour disponibilizou duas chamadas de API, com os seguintes Endpoints:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+● **Buscar Pontos de Venda Por CEP:** endpoint responsável por retornar os Pontos de Venda do Carrefour.GET https://mercado.carrefour.com.br/api/checkout/pub/regions?country=BRA&**postalCode={cep}**
 
-### `npm test`
+● **Buscar Produtos Por Ponto de Venda:** busca os Produtos de acordo com o nome de um Ponto de Venda.GET https://mercado.carrefour.com.br/api/catalog\_system/pub/products/search?**fq={seller\_name}**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.2. Desenvolver um projeto que possa consumir essa API através de seus Endpoints.
 
-### `npm run build`
+1.3. A aplicação deve ser responsiva para rodar na web (desktop) ou mobile (android ou IOS).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. METODOLOGIA
 
-### `npm run eject`
+1. ` `A idéia é desenvolver um front-end com ReactJS;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Começar com um MOCK e ir evoluindo a aplicação;
+1. ` `Vamos quebrar a interface de usuário em uma hierarquia de componentes;
+1. ` `Vamos construir uma versão estática no React:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+\- Ao final desta etapa, teremos uma biblioteca de componentes reutilizáveis ​​que renderizam nosso modelo de dados.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+\- Os componentes terão apenas métodos render(), pois esta é uma versão estática do seu aplicativo.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+\- Poderemos ver como sua interface do usuário é atualizada e onde fazer alterações.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Vamos identificar a representação mínima (mas completa) do estado da interface do usuário (UI)
 
-### Code Splitting
+\- Para tornar a interface do usuário interativa, precisamos acionar alterações em seu modelo de dados subjacente. React consegue isso com state.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+\- Para criar nossa aplicação corretamente, precisamos pensar na lista de estados mutáveis que nossa aplicação precisa.
 
-### Analyzing the Bundle Size
+\- A regra aqui é DRY: Don’t Repeat Yourself (não deve se repetir).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+\- Exemplo de Estados:
 
-### Making a Progressive Web App
+`	`- Um texto de busca que o usuário digitou.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+`	`- O valor de um checkbox.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. ` `Após a definição dos estados do aplicativo, precisamos definir quais componentes sofrem mudanças ou possuem cada estado.
 
-### Deployment
+1. ` `Precisamos, agora, definir o fluxo de dados inverso: os componentes do formulário precisam atualizar o fluxo de dados nos componentes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> c127a60 (Initialize project using Create React App)
+1. DESENVOLVIMENTO DOS TRABALHOS
+   1. Definiu-se que a implementação do código seria utilizando o Visual Studio Code (VSCODE);
+
+1. ` `Com o próprio VSCODE, criou-se um esboço em html para desenho da interface mais amigável para a aplicação:
+
+
+Fonte: Próprio Autor/Carrefour.com.br
+
+1. ` `Após definida a interface, descobriu-se que os componentes básicos necessários para atender os requisitos da aplicação seriam CEP, LOJAS e PRODUTOS;
+
+1. ` `Passou-se a implementar os componentes de forma estática, ou seja, apenas com o método render();
+
+1. ` `A partir daí identificou-se os estados de cada componente da aplicação;
+
+1. ` `E, depois, os efeitos colaterais causados pela mudança nos estados dos componentes;
+
+1. ` `Para possibilitar o acesso aos dados das APIs do Carrefour, em ambiente local de desenvolvimento, utilizou-se uma extensão do Google Chrome denominada de CORS (Cross-Origin Resource Sharing), que é um mecanismo que usa cabeçalhos adicionais HTTP para informar a um navegador que permita que um aplicativo Web seja executado em uma origem (domínio) com permissão para acessar recursos selecionados de um servidor em uma origem distinta, conforme figura a seguir: 
+
+
+Fonte: mozilla.org
+
+O mecanismo CORS suporta requisições seguras do tipo cross-origin e transferências de dados entre navegadores e servidores web.
+
+1. Utilizou-se, como referência e conteúdo de design, o serviço localizador de lojas do próprio Carrefour.
+
+1. Feito isso, passou-se a implementação dos códigos e testes, que apresentaram grandes dificuldades, principalmente, pela necessidade da quebra de paradigma entre a programação em programação .net, e os conceitos necessários para a programação em Reactjs, mas que foram superadas, em parte, após a revisão das aulas da DIO entre outras fontes de conhecimento.
+
+
+
+
+1. RESULTADOS ALCANÇADOS
+
+O resultado alcançado foi satisfatório e compatível com o desafio apresentado, embora, a expectativa era de implementar um visual mais arrojado, entretanto, eu considero que seja necessário, para isso, a atuação de equipe multidisciplinar, com diferentes habilidades, em especial, designers e programadores experientes, de preferência utilizando metodologia ágil de desenvolvimento.
+
+A figura a seguir é apenas uma amostra do que foi implementado com Reactjs:
+
+
+Fonte: Próprio Autor
+
+O usuário deve digitar o código do CEP para o qual deseja localizar as lojas próximas, e  ao clicar no botão de pesquisa, a aplicação acessa a API do Carrefour e apresenta as lojas próximas do CEP digitado, em caixa de seleção, onde o usuário pode escolher a loja de sua preferência.
+
+Automaticamente, a aplicação já apresenta a grade de produtos da 1ª. loja da lista, e permite ao usuário que escolha alguma outra loja na lista, se for o caso; e sendo assim, após a seleção de uma loja diferente da que está sendo apresentada,  a aplicação acesso novamente a API do Carrefour, e retorna com os produtos da loja selecionada.
+
+
+
+Procurou-se utilizar elementos da biblioteca Bootstrap para garantir a responsividade da aplicação que pode rodar em diferentes dispositivos com telas de variados tamanhos.
+
+
+
+
+
+1. REFERÊNCIAS TÉCNICAS
+
+1. Digital Innovation One (DIO) – Bootcamp Carrefour – [www.dio.me](http://www.dio.me)	 
+1. <https://reactjs.org/docs/thinking-in-react.html>
+1. <https://react.semantic-ui.com/collections/form/#types-form>
+1. <https://react.semantic-ui.com/layouts/responsive>
+1. <https://www.carrefour.com.br/localizador-de-lojas>
+1. <https://herramientas-online.com/comprimir-descomprimir-css.html>
+1. <https://www.freecodecamp.org/news/how-to-build-a-todo-application-using-reactjs-and-firebase/>
+1. <https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS>
+1. <https://mybrowseraddon.com/access-control-allow-origin.html>
