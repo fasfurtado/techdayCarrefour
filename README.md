@@ -114,9 +114,9 @@ Procurou-se utilizar elementos da biblioteca Bootstrap para garantir a responsiv
 
 5. REFERÊNCIAS TÉCNICAS
 
-   5.1. Digital Innovation One (DIO) – Bootcamp Carrefour – [www.dio.me](http://www.dio.me)	 
-   5.2. <https://reactjs.org/docs/thinking-in-react.html>
-   5.3. <https://react.semantic-ui.com/collections/form/#types-form>
+   5.1. Digital Innovation One (DIO) – Bootcamp Carrefour – [www.dio.me](http://www.dio.me)</br> 
+   5.2. <https://reactjs.org/docs/thinking-in-react.html></br>
+   5.3. <https://react.semantic-ui.com/collections/form/#types-form></br>
    5.4. <https://react.semantic-ui.com/layouts/responsive>
    5.5. <https://www.carrefour.com.br/localizador-de-lojas>
    5.6. <https://herramientas-online.com/comprimir-descomprimir-css.html>
