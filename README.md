@@ -19,8 +19,6 @@
 
 1.3. A aplicação deve ser responsiva para rodar na web (desktop) ou mobile (android ou IOS).
 
-
-
 2. METODOLOGIA
 
 2.1.` `A idéia é desenvolver um front-end com ReactJS;
@@ -48,7 +46,6 @@
 \- Exemplo de Estados:
 
 `	`- Um texto de busca que o usuário digitou.
-
 
 `	`- O valor de um checkbox.
 
@@ -78,18 +75,14 @@ O mecanismo CORS suporta requisições seguras do tipo cross-origin e transferê
 
 3.9. Feito isso, passou-se a implementação dos códigos e testes, que apresentaram grandes dificuldades, principalmente, pela necessidade da quebra de paradigma entre a programação em programação .net, e os conceitos necessários para a programação em Reactjs, mas que foram superadas, em parte, após a revisão das aulas da DIO entre outras fontes de conhecimento.
 
-
-4. RESULTADOS ALCANÇADOS
-
 O mecanismo CORS suporta requisições seguras do tipo cross-origin e transferências de dados entre navegadores e servidores web.
 
-1. Utilizou-se, como referência e conteúdo de design, o serviço localizador de lojas do próprio Carrefour.
+3.10. Utilizou-se, como referência e conteúdo de design, o serviço localizador de lojas do próprio Carrefour.
 
-1. Feito isso, passou-se a implementação dos códigos e testes, que apresentaram grandes dificuldades, principalmente, pela necessidade da quebra de paradigma entre a programação em programação .net, e os conceitos necessários para a programação em Reactjs, mas que foram superadas, em parte, após a revisão das aulas da DIO entre outras fontes de conhecimento.
+3.11. Feito isso, passou-se a implementação dos códigos e testes, que apresentaram grandes dificuldades, principalmente, pela necessidade da quebra de paradigma entre a programação em programação .net, e os conceitos necessários para a programação em Reactjs, mas que foram superadas, em parte, após a revisão das aulas da DIO entre outras fontes de conhecimento.
 
 
-1. RESULTADOS ALCANÇADOS
->>>>>>> 2ce0b1a27526585b8b0fded62afe3ee821de1412
+4. RESULTADOS ALCANÇADOS
 
 O resultado alcançado foi satisfatório e compatível com o desafio apresentado, embora, a expectativa era de implementar um visual mais arrojado, entretanto, eu considero que seja necessário, para isso, a atuação de equipe multidisciplinar, com diferentes habilidades, em especial, designers e programadores experientes, de preferência utilizando metodologia ágil de desenvolvimento.
 
