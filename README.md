@@ -67,6 +67,7 @@
 	3.1. Definiu-se que a implementação do código seria utilizando o Visual Studio Code (VSCODE);
 
 	3.2. Com o próprio VSCODE, criou-se um esboço em html para desenho da interface mais amigável para a aplicação:
+	![](../master/mokup-carrefour.png)
 
 	3.3. Após definida a interface, descobriu-se que os componentes básicos necessários para atender os requisitos da aplicação seriam CEP, LOJAS e PRODUTOS;
 	3.4. Passou-se a implementar os componentes de forma estática, ou seja, apenas com o método render();
@@ -100,6 +101,9 @@ O mecanismo CORS suporta requisições seguras do tipo cross-origin e transfe
 4. RESULTADOS ALCANÇADOS
 
 O resultado alcançado foi satisfatório e compatível com o desafio apresentado, embora, a expectativa era de implementar um visual mais arrojado, entretanto, eu considero que seja necessário, para isso, a atuação de equipe multidisciplinar, com diferentes habilidades, em especial, designers e programadores experientes, de preferência utilizando metodologia ágil de desenvolvimento.
+
+A figura a seguir é apenas uma amostra do que foi implementado com Reactjs:
+![](../master/view-carrefour.png)
 
 O usuário deve digitar o código do CEP para o qual deseja localizar as lojas próximas, e  ao clicar no botão de pesquisa, a aplicação acessa a API do Carrefour e apresenta as lojas próximas do CEP digitado, em caixa de seleção, onde o usuário pode escolher a loja de sua preferência.
 
