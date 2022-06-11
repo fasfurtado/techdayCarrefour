@@ -86,7 +86,7 @@
 
 	A figura a seguir é apenas uma amostra do que foi implementado com Reactjs:
 
-![](../master/view-techday-carrefour.png)
+	![](../master/view-techday-carrefour.png)
 
 
 	O usuário deve digitar o código do CEP para o qual deseja localizar as lojas próximas, e  ao clicar no botão de pesquisa, a aplicação acessa a API do Carrefour e apresenta as lojas próximas do CEP digitado, em caixa de seleção, onde o usuário pode escolher a loja de sua preferência.{: style="text-align: justify"}
@@ -105,4 +105,4 @@
    5.6. <https://herramientas-online.com/comprimir-descomprimir-css.html></br>
    5.7. <https://www.freecodecamp.org/news/how-to-build-a-todo-application-using-reactjs-and-firebase/></br>
    5.8. <https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS></br>
-   5.9.<https://mybrowseraddon.com/access-control-allow-origin.html>
+   5.9. <https://mybrowseraddon.com/access-control-allow-origin.html>
