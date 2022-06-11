@@ -31,23 +31,23 @@
 
     2.4. Vamos construir uma versão estática no React:
 
-	​		Ao final desta etapa, teremos uma biblioteca de componentes reutilizáveis que renderizam nosso modelo de dados.
+	.Ao final desta etapa, teremos uma biblioteca de componentes reutilizáveis que renderizam nosso modelo de dados.
 
-	​		Os componentes terão apenas métodos render(), pois esta é uma versão estática do seu aplicativo.
+	.Os componentes terão apenas métodos render(), pois esta é uma versão estática do seu aplicativo.
 
-	​		Poderemos ver como sua interface do usuário é atualizada e onde fazer alterações.
+	.Poderemos ver como sua interface do usuário é atualizada e onde fazer alterações.
 
-	2.5. Vamos identificar a representação mínima (mas completa) do estado da interface do usuário (UI)
+    2.5. Vamos identificar a representação mínima (mas completa) do estado da interface do usuário (UI)
 
-	​		Para tornar a interface do usuário interativa, precisamos acionar alterações em seu modelo de dados subjacente. React consegue isso com state.
+	.Para tornar a interface do usuário interativa, precisamos acionar alterações em seu modelo de dados subjacente. React consegue isso com state.
 
-	​		Para criar nossa aplicação corretamente, precisamos pensar na lista de estados mutáveis que nossa aplicação precisa.
+	.Para criar nossa aplicação corretamente, precisamos pensar na lista de estados mutáveis que nossa aplicação precisa.
 
-	​		regra aqui é DRY: Don’t Repeat Yourself (não deve se repetir).
+	.regra aqui é DRY: Don’t Repeat Yourself (não deve se repetir).
 
-	2.6. Após a definição dos estados do aplicativo, precisamos definir quais componentes sofrem mudanças ou possuem cada estado.
+    2.6. Após a definição dos estados do aplicativo, precisamos definir quais componentes sofrem mudanças ou possuem cada estado.
 	
-	2.7. Precisamos, agora, definir o fluxo de dados inverso: os componentes do formulário precisam atualizar o fluxo de dados nos componentes.
+    2.7. Precisamos, agora, definir o fluxo de dados inverso: os componentes do formulário precisam atualizar o fluxo de dados nos componentes.
 
 			Exemplo de Estados:
 
@@ -56,12 +56,14 @@
 			- O valor de um checkbox.
 
 3. DESENVOLVIMENTO DOS TRABALHOS
+
 	3.1. Definiu-se que a implementação do código seria utilizando o Visual Studio Code (VSCODE);
 
 	3.2. Com o próprio VSCODE, criou-se um esboço em html para desenho da interface mais amigável para a aplicação:
 	![](../master/mokup-carrefour.png)
 
 	3.3. Após definida a interface, descobriu-se que os componentes básicos necessários para atender os requisitos da aplicação seriam CEP, LOJAS e PRODUTOS;
+	
 	3.4. Passou-se a implementar os componentes de forma estática, ou seja, apenas com o método render();
 
 	3.5. A partir daí identificou-se os estados de cada componente da aplicação;
