@@ -78,18 +78,6 @@
 	
 	3.10. Feito isso, passou-se a implementação dos códigos e testes, que apresentaram grandes dificuldades, principalmente, pela necessidade da quebra de paradigma entre a programação em programação .net, e os conceitos necessários para a programação em Reactjs, mas que foram superadas, em parte, após a revisão das aulas da DIO entre outras fontes de conhecimento.
 	
-=======
-3.8. Utilizou-se, como referência e conteúdo de design, o serviço localizador de lojas do próprio Carrefour.
-
-3.9. Feito isso, passou-se a implementação dos códigos e testes, que apresentaram grandes dificuldades, principalmente, pela necessidade da quebra de paradigma entre a programação em programação .net, e os conceitos necessários para a programação em Reactjs, mas que foram superadas, em parte, após a revisão das aulas da DIO entre outras fontes de conhecimento.
-
-O mecanismo CORS suporta requisições seguras do tipo cross-origin e transferências de dados entre navegadores e servidores web.
-
-3.10. Utilizou-se, como referência e conteúdo de design, o serviço localizador de lojas do próprio Carrefour.
-
-3.11. Feito isso, passou-se a implementação dos códigos e testes, que apresentaram grandes dificuldades, principalmente, pela necessidade da quebra de paradigma entre a programação em programação .net, e os conceitos necessários para a programação em Reactjs, mas que foram superadas, em parte, após a revisão das aulas da DIO entre outras fontes de conhecimento.
-
-
 4. RESULTADOS ALCANÇADOS
 
 O resultado alcançado foi satisfatório e compatível com o desafio apresentado, embora, a expectativa era de implementar um visual mais arrojado, entretanto, eu considero que seja necessário, para isso, a atuação de equipe multidisciplinar, com diferentes habilidades, em especial, designers e programadores experientes, de preferência utilizando metodologia ágil de desenvolvimento.
