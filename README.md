@@ -5,7 +5,9 @@
 
 `       `e-mail: <franciscofurtadoeng@hotmail.com>
 
-`      `Repositório github: 	<https://github.com/fasfurtado/techdaycarrefour>	
+`      `Repositório github: 	<https://github.com/fasfurtado/techdaycarrefour>
+
+`      `Hospedagem Remota: <https://techday.surge.sh/>
 
 1. DEFINIÇÃO DO PROBLEMA
 
