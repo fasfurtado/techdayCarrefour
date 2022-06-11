@@ -31,19 +31,19 @@
 
     2.4. Vamos construir uma versão estática no React:
 
-		- Ao final desta etapa, teremos uma biblioteca de componentes reutilizáveis que renderizam nosso modelo de dados.
+		* Ao final desta etapa, teremos uma biblioteca de componentes reutilizáveis que renderizam nosso modelo de dados.
 
-		- Os componentes terão apenas métodos render(), pois esta é uma versão estática do seu aplicativo.
+		* Os componentes terão apenas métodos render(), pois esta é uma versão estática do seu aplicativo.
 
-		- Poderemos ver como sua interface do usuário é atualizada e onde fazer alterações.
+		* Poderemos ver como sua interface do usuário é atualizada e onde fazer alterações.
 
     2.5. Vamos identificar a representação mínima (mas completa) do estado da interface do usuário (UI)
 
-		- Para tornar a interface do usuário interativa, precisamos acionar alterações em seu modelo de dados subjacente. React consegue isso com state.
+		* Para tornar a interface do usuário interativa, precisamos acionar alterações em seu modelo de dados subjacente. React consegue isso com state.
 
-		- Para criar nossa aplicação corretamente, precisamos pensar na lista de estados mutáveis que nossa aplicação precisa.
+		* Para criar nossa aplicação corretamente, precisamos pensar na lista de estados mutáveis que nossa aplicação precisa.
 
-		- regra aqui é DRY: Don’t Repeat Yourself (não deve se repetir).
+		* regra aqui é DRY: Don’t Repeat Yourself (não deve se repetir).
 
     2.6. Após a definição dos estados do aplicativo, precisamos definir quais componentes sofrem mudanças ou possuem cada estado.
 	
@@ -51,9 +51,9 @@
 
 			Exemplo de Estados:
 
-			- Um texto de busca que o usuário digitou.
+			* Um texto de busca que o usuário digitou.
 		
-			- O valor de um checkbox.
+			* O valor de um checkbox.
 
 3. DESENVOLVIMENTO DOS TRABALHOS
 
