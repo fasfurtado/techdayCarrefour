@@ -70,7 +70,7 @@
 
 	3.6. E, depois, os efeitos colaterais causados pela mudança nos estados dos componentes;
 
-	3.7. Para possibilitar o acesso aos dados das APIs do Carrefour, em ambiente local de desenvolvimento, utilizou-se uma extensão do Google Chrome denominada de CORS (Cross-Origin Resource Sharing), que é um mecanismo que usa cabeçalhos adicionais HTTP para informar a um navegador que permita que um aplicativo Web seja executado em uma origem (domínio) com permissão para acessar recursos selecionados de um servidor em uma origem distinta, conforme figura a seguir:
+	3.7. Para possibilitar o acesso aos dados das APIs do Carrefour, em ambiente local de desenvolvimento, utilizou-se uma extensão do Google Chrome denominada de CORS (Cross-Origin Resource Sharing), que é um mecanismo que usa cabeçalhos adicionais HTTP para informar a um navegador que permita que um aplicativo Web seja executado em uma origem (domínio) com permissão para acessar recursos selecionados de um servidor em uma origem distinta, conforme figura a seguir:{: style="text-align: justify"}
 	
 	![](https://mdn.mozillademos.org/files/14295/CORS_principle.png)
 	
@@ -78,21 +78,22 @@
 	
 	3.9. Utilizou-se, como referência e conteúdo de design, o serviço localizador de lojas do próprio Carrefour.
 	
-	3.10. Feito isso, passou-se a implementação dos códigos e testes, que apresentaram grandes dificuldades, principalmente, pela necessidade da quebra de paradigma entre a programação em programação .net, e os conceitos necessários para a programação em Reactjs, mas que foram superadas, em parte, após a revisão das aulas da DIO entre outras fontes de conhecimento.
+	3.10. Feito isso, passou-se a implementação dos códigos e testes, que apresentaram grandes dificuldades, principalmente, pela necessidade da quebra de paradigma entre a programação em programação .net, e os conceitos necessários para a programação em Reactjs, mas que foram superadas, em parte, após a revisão das aulas da DIO entre outras fontes de conhecimento.{: style="text-align: justify"}
 	
 4. RESULTADOS ALCANÇADOS
 
-	O resultado alcançado foi satisfatório e compatível com o desafio apresentado, embora, a expectativa era de implementar um visual mais arrojado, entretanto, eu considero que seja necessário, para isso, a atuação de equipe multidisciplinar, com diferentes habilidades, em especial, designers e programadores experientes, de preferência utilizando metodologia ágil de desenvolvimento.
+	O resultado alcançado foi satisfatório e compatível com o desafio apresentado, embora, a expectativa era de implementar um visual mais arrojado, entretanto, eu considero que seja necessário, para isso, a atuação de equipe multidisciplinar, com diferentes habilidades, em especial, designers e programadores experientes, de preferência utilizando metodologia ágil de desenvolvimento.{: style="text-align: justify"}
 
 	A figura a seguir é apenas uma amostra do que foi implementado com Reactjs:
 
 ![](../master/view-techday-carrefour.png)
 
-	O usuário deve digitar o código do CEP para o qual deseja localizar as lojas próximas, e  ao clicar no botão de pesquisa, a aplicação acessa a API do Carrefour e apresenta as lojas próximas do CEP digitado, em caixa de seleção, onde o usuário pode escolher a loja de sua preferência.
 
-	Automaticamente, a aplicação já apresenta a grade de produtos da 1ª. loja da lista, e permite ao usuário que escolha alguma outra loja na lista, se for o caso; e sendo assim, após a seleção de uma loja diferente da que está sendo apresentada,  a aplicação acesso novamente a API do Carrefour, e retorna com os produtos da loja selecionada.
+	O usuário deve digitar o código do CEP para o qual deseja localizar as lojas próximas, e  ao clicar no botão de pesquisa, a aplicação acessa a API do Carrefour e apresenta as lojas próximas do CEP digitado, em caixa de seleção, onde o usuário pode escolher a loja de sua preferência.{: style="text-align: justify"}
 
-	Procurou-se utilizar elementos da biblioteca Bootstrap para garantir a responsividade da aplicação que pode rodar em diferentes dispositivos com telas de variados tamanhos.
+	Automaticamente, a aplicação já apresenta a grade de produtos da 1ª. loja da lista, e permite ao usuário que escolha alguma outra loja na lista, se for o caso; e sendo assim, após a seleção de uma loja diferente da que está sendo apresentada,  a aplicação acesso novamente a API do Carrefour, e retorna com os produtos da loja selecionada.{: style="text-align: justify"}
+
+	Procurou-se utilizar elementos da biblioteca Bootstrap para garantir a responsividade da aplicação que pode rodar em diferentes dispositivos com telas de variados tamanhos.{: style="text-align: justify"}
 
 5. REFERÊNCIAS TÉCNICAS
 
