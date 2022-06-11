@@ -45,23 +45,15 @@
 
 	​		regra aqui é DRY: Don’t Repeat Yourself (não deve se repetir).
 
-	​		Exemplo de Estados:
-
-			- Um texto de busca que o usuário digitou.
-		
-			- O valor de um checkbox.
-
-
 	2.6. Após a definição dos estados do aplicativo, precisamos definir quais componentes sofrem mudanças ou possuem cada estado.
 	
 	2.7. Precisamos, agora, definir o fluxo de dados inverso: os componentes do formulário precisam atualizar o fluxo de dados nos componentes.
 
-`	`- O valor de um checkbox.
+			Exemplo de Estados:
 
-2.6. Após a definição dos estados do aplicativo, precisamos definir quais componentes sofrem mudanças ou possuem cada estado.
-
-2.7. Precisamos, agora, definir o fluxo de dados inverso: os componentes do formulário precisam atualizar o fluxo de dados nos componentes.f
-
+			- Um texto de busca que o usuário digitou.
+		
+			- O valor de um checkbox.
 
 3. DESENVOLVIMENTO DOS TRABALHOS
 	3.1. Definiu-se que a implementação do código seria utilizando o Visual Studio Code (VSCODE);
