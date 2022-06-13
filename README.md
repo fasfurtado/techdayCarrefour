@@ -91,7 +91,7 @@
 	![](../master/view-techday-carrefour.png)
 
 
-	O usuário deve digitar o código do CEP para o qual deseja localizar as lojas próximas, e  ao clicar no botão de pesquisa, a aplicação acessa a API do Carrefour e apresenta as lojas próximas do CEP digitado, em caixa de seleção, onde o usuário pode escolher a loja de sua preferência.{: style="text-align: justify"}
+	O usuário deve digitar o código do CEP para o qual deseja localizar as lojas próximas, e  ao clicar no botão de pesquisa, a aplicação acessa a API do Carrefour e apresenta as lojas próximas do CEP digitado, em caixa de seleção, onde o usuário pode escolher a loja de sua preferência.
 
 	Automaticamente, a aplicação já apresenta a grade de produtos da 1ª. loja da lista, e permite ao usuário que escolha alguma outra loja na lista, se for o caso; e sendo assim, após a seleção de uma loja diferente da que está sendo apresentada,  a aplicação acesso novamente a API do Carrefour, e retorna com os produtos da loja selecionada.
 
